@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="header">
+            <img src="img/Logo.png" class="header__img" alt="">
+        </div>
+
+        <div class="texto">
+
+            <textarea class="texto__encriptar" id="texto__encriptar" name="texto" id="texto" cols="30" rows="10" placeholder="Escriba tu Texto aquí"></textarea>
+
+            <div class="texto__botones">
+
+                <button class="texto__botones texto__botones--encriptar" id="texto__botones--encriptar">Encriptar</button>
+
+                <button class="texto__botones texto__botones--desencriptar" id="texto__botones--desencriptar">Desencriptar</button>
+
+            </div>
+
+        </div>
+
+        <div class="mensaje">
+
+            <img src="img/Muñeco.png" alt="muneco" class="mensaje__muneco" id="mensaje__muneco">
+            <h3 class="mensaje__titulo" id="mensaje__titulo">Ningún mensaje fue encontrado</h3>
+            <p class="mensaje__parrafo" id="mensaje__parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            <textarea class="mensaje__mostrar" id="mensaje__mostrar" name="" id="" cols="30" rows="10" style="display: none;"></textarea>
+            <button class="mensaje__botonCopiar"  id="mensaje__botonCopiar" style="display: none;">Copiar</button>
+        </div>
+
+        <div class="footer">
+            <p class="footer__parrafo">Creado por: Carlos Mindiola</p>
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
